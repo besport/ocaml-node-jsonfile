@@ -1,0 +1,22 @@
+opam-version: "1.2"
+name:         "ocaml-node-jsonfile"
+maintainer:   ""
+author:       ""
+
+homepage:     "https://gitlab.com/dannywillems/ocaml-node-jsonfile"
+bug-reports:  "https://gitlab.com/dannywillems/ocaml-node-jsonfile/issues"
+
+dev-repo:     "https://gitlab.com/dannywillems/ocaml-node-jsonfile"
+
+license:      "LGPL-3.0 with OCaml linking exception"
+
+version:      "1.0"
+
+build: [make "build"]
+install: [make "install"]
+remove: [make "remove"]
+
+depends: [
+  "gen_js_api"
+]
+available: [ ocaml-version >= "4.03.0" ]
