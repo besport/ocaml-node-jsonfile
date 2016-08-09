@@ -7,11 +7,13 @@ ocaml-node-jsonfile is a binding to the node module jsonfile. It will let you us
 ## How to install?
 
 You need to switch to ocaml **4.03.0**:
+
 `opam switch 4.03.0`
 
 First, you need to install [ocaml-node](https://github.com/besport/ocaml-node.git) if you haven't already installed it
 
 To install this packae use the command:
+
 `opam pin add ocaml-node-jsonfile https://github.com/besport/ocaml-node-jsonfile.git`
 
 ## How to use?
