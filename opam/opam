@@ -1,16 +1,16 @@
 opam-version: "1.2"
 name:         "ocaml-node-jsonfile"
-maintainer:   ""
-author:       ""
+maintainer:   "BeSport"
+author:       "Omar Chebib"
 
-homepage:     "https://gitlab.com/dannywillems/ocaml-node-jsonfile"
-bug-reports:  "https://gitlab.com/dannywillems/ocaml-node-jsonfile/issues"
+homepage:     "https://github.com/besport/ocaml-node-jsonfile"
+bug-reports:  "https://github.com/besport/ocaml-node-jsonfile/issues"
 
-dev-repo:     "https://gitlab.com/dannywillems/ocaml-node-jsonfile"
+dev-repo:     "https://github.com/besport/ocaml-node-jsonfile.git"
 
 license:      "LGPL-3.0 with OCaml linking exception"
 
-version:      "1.0"
+version:      "0.0.1"
 
 build: [make "build"]
 install: [make "install"]
