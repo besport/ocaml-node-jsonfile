@@ -35,4 +35,7 @@ let obj = Ojs.set obj "name" (Ojs.string_to_js "OCaml") in
 Node_jsonfile.write_file_sync jsonfile "file.json" obj
 ```
 
-`
+##What about the full documentation?
+ 
+You can find the full documentation of `jsonfile` on the github repo:  
+https://github.com/jprichardson/node-jsonfile
