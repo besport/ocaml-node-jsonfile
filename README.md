@@ -26,7 +26,7 @@ var obj = {name: "OCaml"};
 jsonfile.writeFileSync("file.json", obj);
 ```
 
-Equivalent in OCaml:
+Equivalent in OCaml using gen_js_api (for Ojs.t type):
 
 ```OCaml
 let jsonfile = Node.require "jsonfile" in
@@ -35,7 +35,7 @@ let obj = Ojs.set obj "name" (Ojs.string_to_js "OCaml") in
 Node_jsonfile.write_file_sync jsonfile "file.json" obj
 ```
 
-##What about the full documentation?
+## What about the full documentation?
  
 You can find the full documentation of `jsonfile` on the github repo:  
 https://github.com/jprichardson/node-jsonfile
