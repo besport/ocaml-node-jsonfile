@@ -12,7 +12,7 @@ You need to switch to ocaml **4.03.0**:
 
 First, you need to install [ocaml-node](https://github.com/besport/ocaml-node.git) if you haven't already installed it
 
-To install this packae use the command:
+To install this package use the command:
 
 `opam pin add ocaml-node-jsonfile https://github.com/besport/ocaml-node-jsonfile.git`
 
@@ -33,7 +33,7 @@ Equivalent in OCaml using gen_js_api (for Ojs.t type):
 ```OCaml
 let jsonfile = Node.require "jsonfile" in
 let obj = Ojs.empty () in
-let obj = Ojs.set obj "name" (Ojs.string_to_js "OCaml") in
+let () = Ojs.set obj "name" (Ojs.string_to_js "OCaml") in
 Node_jsonfile.write_file_sync jsonfile "file.json" obj
 ```
 
