@@ -1,5 +1,7 @@
 #OCaml Node JSONFile
 
+**WARNING:** This binding is partial.
+
 ## What is ocaml-node-jsonfile?
 
 ocaml-node-jsonfile is a binding to the node module jsonfile. It will let you use its functions directly in ocaml
