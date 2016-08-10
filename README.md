@@ -40,6 +40,6 @@ Node_jsonfile.write_file_sync jsonfile "file.json" obj
 ```
 
 ## What about the full documentation?
- 
-You can find the full documentation of `jsonfile` on the github repo:  
+
+You can find the full documentation of `jsonfile` on the github repo:
 https://github.com/jprichardson/node-jsonfile
