@@ -8,7 +8,7 @@ ocaml-node-jsonfile is a binding to the node module jsonfile. It will let you us
 
 ## How to install?
 
-You need to switch to ocaml **4.03.0**:
+You need to switch to OCaml >= **4.03.0** (due to gen_js_api):
 
 `opam switch 4.03.0`
 
@@ -30,7 +30,7 @@ var obj = {name: "OCaml"};
 jsonfile.writeFileSync("file.json", obj);
 ```
 
-Equivalent in OCaml using gen_js_api (for Ojs.t type):
+Equivalent in OCaml using [gen_js_api](https://github.com/lexifi/gen_js_api) (for Ojs.t type):
 
 ```OCaml
 let jsonfile = Node.require "jsonfile" in
